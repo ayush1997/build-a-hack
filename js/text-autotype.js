@@ -1,6 +1,7 @@
-var i = 1; 
+var i = 1;
 var j= -1;
-var list = ['Web Developer.','Programmer.','Graphic Designer.','Game Developer.'];
+var k =0;
+var list = ['Eat.Code.Sleep.Hack'];
 var a=list[0];
 var len = list.length;
 var num = 0;
@@ -17,27 +18,37 @@ function txt(){
 				i++;
 			}
 		else
-			{	
-				i = -1;}
+			{
+				if(k==-1)
+				{return;}
+				i = -1;
+
+				}
 	}
-	else 
+	else
 	{
-		if(-1*i != a.length)
+		if(-1*i != 10)
 			{
 				i--;
 			}
-		else
-			{
-				i=1;
-				var flag = ret_index(a);
-				a = list[flag];
+			else{
+					var ch = "Sleep";
+					var sl = ch.strike();
+
+					$("#textdisp").html(strs + sl);
+					strs = strs+sl;
+					i = 14;
+					k = -1;
+
+					a = "Eat.Code."+sl+".Hack";
+
 			}
-			
-			
+
+
 	}
 
-	
-		
+
+
 }
 function ret_index(a){
 	var index = list.indexOf(a);

@@ -97,7 +97,13 @@
 	.link { font-size: 10em; }
 
 }*/
+.head3 span{
 
+	/*font-size: 60px;*/
+	padding-left:5px;
+	color:white;
+	font-family: 'Bangers', cursive;
+}
 @media only screen and (max-width: 767px)
 {
     .link{font-size: 50px !important;}
