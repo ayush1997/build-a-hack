@@ -15,7 +15,7 @@
 .link--nukun {
 	color: #E3E8DC;
 	font-weight: 900;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	overflow: hidden;
 	padding: 10px 3px;
 	-webkit-transition: color 0.3s;
@@ -81,7 +81,10 @@
 	transform: perspective(1000px) rotate3d(0,1,0,180deg);
 }
 
-
+.hs{
+	color:#ffd738;
+	text-align: center;
+}
 
 /* Media Queries */
 /*@media screen and (max-width: 50em) {
@@ -97,8 +100,14 @@
 @media only screen and (max-width: 767px)
 {
     .link{font-size: 50px !important;}
+		.grid__item p{
+			font-size: 10px;
+		}
 }
 @media only screen and (max-width: 1200px)
 {
     .link{font-size: 80px;}
+		.grid__item p{
+			font-size:1.3em;
+		}
 }
