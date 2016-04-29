@@ -45,6 +45,21 @@ a:hover {
 	overflow: hidden;
 	position: absolute;
 }
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+		opacity:0.4;
+ /*background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;*/
+  background-size: cover;
+  transition: 1s opacity;
+}
 
 
 /* Grid */
@@ -53,8 +68,10 @@ a:hover {
 	/*height: calc(100vh - 40px);*/
 	height: 100vh;
 	min-height: 460px;
+		width: 100vw;
 	max-width: 100vw;
-	background: #DDD;
+
+	/*background: #DDD;*/
 
 	/*padding: 100px 0;*/
 	z-index: 1;
@@ -67,6 +84,7 @@ a:hover {
 	-webkit-justify-content: center;
 	justify-content: center;
 	-webkit-transform: translate3d(0,0,0);
+
 }
 
 .grid__item p {
@@ -87,35 +105,15 @@ a:hover {
 .color-10 { background: #222; }
 .color-11 { background: #515151; }
 
-body {
+/*body {
   margin: 0;
   background: #000;
-}
-video {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 100;
-    transform: translateX(-50%) translateY(-50%);
- /*background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;*/
-  background-size: cover;
-  transition: 1s opacity;
-}
+}*/
 
 
 
 
-@media screen and (max-width: 500px) {
-  div{width:70%;}
-}
-@media screen and (max-device-width: 800px) {
-  html { background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed; }
-  #bgvid { display: none; }
-}
+
 @media screen and (max-width: 50em) {
 	.codrops-header {
 		padding: 3em 10% 4em;
@@ -123,18 +121,4 @@ video {
 	.grid__item {
 		width: 100%;
 	}
-}
-
-
-@media only screen and (max-width: 767px)
-h1 {
-    font-size: 38px;
-}
-@media only screen and (max-width: 767px)
-h1 {
-    font-size: 55px !important;
-}
-@media only screen and (max-width: 1200px)
-h1 {
-    font-size: 80px;
 }
