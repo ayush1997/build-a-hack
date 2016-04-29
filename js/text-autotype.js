@@ -20,7 +20,8 @@ function txt(){
 		else
 			{
 				if(k==-1)
-				{return;}
+				{
+					return;}
 				i = -1;
 
 				}
@@ -60,4 +61,4 @@ function ret_index(a){
 }
 
 
-setInterval(txt,190);
+setInterval(txt,300);
