@@ -47,7 +47,7 @@
 
 .link--nukun::after {
 	background: #ACD07A;
-
+	background:#ffd738;
 	-webkit-transform: translate3d(-300%,0,0) scale3d(0,1,1);
 	transform: translate3d(-300%,0,0) scale3d(0,1,1);
 }
@@ -64,6 +64,7 @@
 
 .link--nukun span {
 	color: #E3E8DC;
+
 	display: inline-block;
 	position: relative;
 	-webkit-transform: perspective(1000px) rotate3d(0,1,0,0deg);
