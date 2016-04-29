@@ -5,24 +5,28 @@
 	position: relative;
 	font-size: 8em;
 	line-height: 1;
-	/*color: #9e9ba4;*/
-
+	color: #9e9ba4;
 	display: inline-block;
 }
 
 
+
+/* Nukun */
 .link--nukun {
 	color: #E3E8DC;
 	font-weight: 900;
 	text-transform: uppercase;
 	overflow: hidden;
-	padding: 10px 0;
+	padding: 10px 3px;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
+	color:#ffd738;
 }
 
 .link--nukun:hover {
 	color: #1e1a1b;
+		color: #fff;
+
 }
 
 .link--nukun::before,
@@ -32,6 +36,7 @@
 	width: 30%;
 	height: 5px;
 	background: #E3E8DC;
+	color:#ffd738;
 	bottom: 0;
 	left: 35%;
 	-webkit-transition: -webkit-transform 0.5s;
@@ -42,6 +47,7 @@
 
 .link--nukun::after {
 	background: #ACD07A;
+
 	-webkit-transform: translate3d(-300%,0,0) scale3d(0,1,1);
 	transform: translate3d(-300%,0,0) scale3d(0,1,1);
 }
@@ -69,7 +75,8 @@
 }
 
 .link--nukun:hover span {
-	color: #fff;
+
+	color:#ffd738;
 	-webkit-transform: perspective(1000px) rotate3d(0,1,0,180deg);
 	transform: perspective(1000px) rotate3d(0,1,0,180deg);
 }

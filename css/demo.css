@@ -45,21 +45,6 @@ a:hover {
 	overflow: hidden;
 	position: absolute;
 }
-video {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-		opacity:0.4;
- /*background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;*/
-  background-size: cover;
-  transition: 1s opacity;
-}
 
 
 /* Grid */
@@ -68,10 +53,8 @@ video {
 	/*height: calc(100vh - 40px);*/
 	height: 100vh;
 	min-height: 460px;
-		width: 100vw;
 	max-width: 100vw;
-
-	/*background: #DDD;*/
+	background: #DDD;
 
 	/*padding: 100px 0;*/
 	z-index: 1;
@@ -96,7 +79,8 @@ video {
 /* Background colors */
 .color-1 { background: #E8E0DA; }
 .color-2 { background: #576b67; }
-.color-3 { background: #383A35; }
+/*.color-3 { background: #383A35; }*/
+.color-3 { background: transparent; }
 .color-4 { background: #333; }
 .color-5 { background: #fda9a9; }
 .color-7 { background: #cde7d3; }
@@ -105,13 +89,25 @@ video {
 .color-10 { background: #222; }
 .color-11 { background: #515151; }
 
-/*body {
+body {
   margin: 0;
   background: #000;
-}*/
-
-
-
+}
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+		opacity:0.2;
+ /*background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;*/
+  background-size: cover;
+  transition: 1s opacity;
+}
 
 
 @media screen and (max-width: 50em) {
