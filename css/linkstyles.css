@@ -5,7 +5,8 @@
 	position: relative;
 	font-size: 8em;
 	line-height: 1;
-	color: #9e9ba4;
+	/*color: #9e9ba4;*/
+
 	display: inline-block;
 }
 
@@ -13,7 +14,8 @@
 
 /* Nukun */
 .link--nukun {
-	color: #E3E8DC;
+	/*color: #E3E8DC;*/
+	color:#ffd738;
 	font-weight: 900;
 	text-transform: uppercase;
 	overflow: hidden;
@@ -23,7 +25,8 @@
 }
 
 .link--nukun:hover {
-	color: #1e1a1b;
+	/*color: #1e1a1b;*/
+	color:#fff;
 }
 
 .link--nukun::before,
@@ -71,6 +74,7 @@
 
 .link--nukun:hover span {
 	color: #fff;
+	color:#ffd738;
 	-webkit-transform: perspective(1000px) rotate3d(0,1,0,180deg);
 	transform: perspective(1000px) rotate3d(0,1,0,180deg);
 }
