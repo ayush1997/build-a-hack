@@ -102,19 +102,33 @@
 	/*font-size: 60px;*/
 	padding-left:5px;
 	color:white;
-	font-family: 'Bangers', cursive;
+	/*font-family: 'Bangers', cursive;*/
+	font-family: 'Raleway', Arial, sans-serif;
 }
+
+
+
 @media only screen and (max-width: 767px)
 {
     .link{font-size: 50px !important;}
-		.grid__item p{
-			font-size: 10px;
+		.grid__item .p1{
+			font-size: 20px !important;
+		}
+}
+@media only screen and (max-width: 336px)
+{
+    .link{font-size: 40px !important;}
+		.grid__item .p1{
+			font-size:15px !important;
+		}
+		.head3{
+			font-size: 18px !important;
 		}
 }
 @media only screen and (max-width: 1200px)
 {
     .link{font-size: 80px;}
-		.grid__item p{
+		.grid__item .p1{
 			font-size:1.3em;
 		}
 }

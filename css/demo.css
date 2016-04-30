@@ -1,15 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,500,700,900|Dosis:800|Playfair+Display:400,400italic,900italic|Lora:700|Syncopate:700|Roboto+Condensed:300italic|Oswald:700);
 
-@font-face {
-	font-weight: normal;
-	font-style: normal;
-	font-family: 'codropsicons';
-	src:url('../fonts/codropsicons/codropsicons.eot');
-	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
-		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
-		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
-}
 
 *, *:after, *:before { box-sizing: border-box; }
 .clearfix:before, .clearfix:after {display: table;  content: ''; }
@@ -20,7 +10,8 @@ body {
 	color: #1e1a1b;
 	font-weight: 500;
 	font-size: 1em;
-	font-family: 'Raleway', Arial, sans-serif;
+	/*font-family: 'Raleway', Arial, sans-serif;*/
+
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -109,7 +100,7 @@ video {
   transition: 1s opacity;
 }
 
-
+/*
 @media screen and (max-width: 50em) {
 	.codrops-header {
 		padding: 3em 10% 4em;
@@ -117,4 +108,4 @@ video {
 	.grid__item {
 		width: 100%;
 	}
-}
+}*/
