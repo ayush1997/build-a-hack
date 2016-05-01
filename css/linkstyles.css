@@ -135,7 +135,9 @@
 			font-size:1.3em;
 		}
 }
-@media only screen and (max-width: 767px)
+/*@media only screen and (max-width: 767px)
+{
 #bgvid {
     display: none;
 }
+}*/
